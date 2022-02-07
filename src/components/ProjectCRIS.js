@@ -1,15 +1,15 @@
 import '../style/App.css';
+import Nav from './Nav';
 
-function App() {
+function ProjectCRIS() {
   return (
     <div className="App">
+      <Nav />
       <header className="App-header">
-        <p>
-          Welcome to my portfolio!
-        </p>
+        CRIS
       </header>
     </div>
   );
 }
 
-export default App;
+export default ProjectCRIS;

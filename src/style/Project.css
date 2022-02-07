@@ -1,0 +1,11 @@
+.Project {
+  background-color: goldenrod;
+  padding: 30px;
+  border-radius: 10px;
+  color: black;
+  margin: 20px;
+}
+
+.Project:hover {
+  background-color: yellow;
+}
