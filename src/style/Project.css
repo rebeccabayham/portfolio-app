@@ -1,5 +1,5 @@
 .Project {
-  background: goldenrod;
+  background: cadetblue;
   border-radius: 10px;
   color: black;
   margin: 20px;
@@ -13,11 +13,11 @@
 }
 
 .Project:hover {
-  background: yellow;
+  background: white;
 }
 
 .bg-image {
-  opacity: 0.5;
+  opacity: 0.3;
   height: 167px;
   width: 250px;
   border-radius: 10px;
