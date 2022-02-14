@@ -1,11 +1,29 @@
 .Project {
-  background-color: goldenrod;
-  padding: 30px;
+  background: goldenrod;
   border-radius: 10px;
   color: black;
   margin: 20px;
+  height: 167px;
+  width: 250px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .Project:hover {
-  background-color: yellow;
+  background: yellow;
+}
+
+.bg-image {
+  opacity: 0.5;
+  height: 167px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.Project h3 {
+  position: absolute;
+  padding: 30px;
 }

@@ -6,9 +6,10 @@ function About() {
     <div className="App">
       <Nav />
       <header className="App-header">
-          <h1>About</h1>
-          <p>Rebecca Bayham is a GIS Developer based in Research Triangle, NC.</p>
-          <p><a href="https://www.linkedin.com/in/rebecca-bayham/">LinkedIn</a></p>
+        <div className="headshot"></div>
+        <h1>About Rebecca</h1>
+        <p>I am a GIS Developer based in Research Triangle, NC. I am a certified GIS Professional (GISP). I have been working in the GIS field since 2012.</p>
+        <p><strong><a href="https://www.linkedin.com/in/rebecca-bayham/">Visit my LinkedIn</a></strong></p>
       </header>
     </div>
   );

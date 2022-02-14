@@ -11,11 +11,12 @@ function Home() {
         <br />
         <h1>Projects</h1>
         <div className="project-container">
-          <Project name="Iceland Tour" url="iceland-tour" description="React + Leaflet"/>
-          <Project name="Roadway Inundation Tool" url="rit" description="Leaflet" />
-          <Project name="Coastal Roadway Inundation Simulator" url="cris" description="Leaflet" />
-          <Project name="Library" url="library" description="Vanilla JavaScript" />
-          <Project name="Camden County App" url="camden-arcgis-api" description="ArcGIS API for Javascript" />
+          <Project name="Roadway Inundation Tool" url="rit" image="rit_screenshot.png" />
+          <Project name="Coastal Roadway Inundation Simulator" url="cris" image="cris_screenshot.png" />
+          <Project name="Resilience Analysis Framework for Transportation" url="raft" image="raft_screenshot_07.png" />
+          <Project name="Portfolio Website" url="portfolio" image="portfolio_screenshot.png" />
+          <Project name="Library App" url="library" image="library_screenshot.png" />
+          <Project name="Camden County App" url="camden-arcgis-api" image="arcgis_api_screenshot.png" />
         </div>
       </header>
     </div>

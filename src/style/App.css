@@ -7,14 +7,14 @@
 }
 
 .App-header {
-  background-color: hsl(220, 13%, 18%);
-  min-height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(5px + 2vmin);
   color: white;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .App a {
@@ -31,10 +31,11 @@
   list-style: none;
   display: flex;
   justify-content: center;
+  font-size: calc(2px + 2vmin);
 }
 
 .nav-item a {
-  color: #61dafb;
+  color: white;
   font-weight: bold;
   display: inline-block;
   text-decoration: none;
@@ -42,7 +43,7 @@
 }
 
 .nav-item:hover a {
-  color: white;
+  opacity: 0.7;
 }
 
 .project-container {
@@ -51,4 +52,68 @@
   align-content: stretch;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.headshot {
+  background: url("../images/headshot_sm.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+}
+
+.resume td {
+  text-align: left;
+  padding: 20px;
+  vertical-align: text-top;
+}
+
+.resume-job {
+  width: 15vw;
+}
+
+.resume-description {
+  width: 45vw;
+  font-size: calc(2px + 2vmin);
+}
+
+.resume-description li {
+  list-style: none;
+  padding-bottom: 22px;
+  line-height: 1.1;
+}
+
+.resume-job-title h3 {
+  margin-bottom: 5px;
+}
+
+.resume-employer {
+  display: block;
+  margin-bottom: 5px;
+  opacity: 0.9;
+}
+
+.resume-date {
+  display: block;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.resume-skills-list {
+  font-size: calc(2px + 2vmin);
+}
+
+.resume-skills-list ul {
+  margin-top: -15px;
+}
+
+.resume-skills-list-header {
+  font-weight: bold;
+  margin-bottom: 0px;
+  padding-bottom: 18px;
+  display: block;
 }
