@@ -17,6 +17,7 @@ function Home() {
           <Project name="Portfolio Website" url="portfolio" image="portfolio_screenshot.png" />
           <Project name="Library App" url="library" image="library_screenshot.png" />
           <Project name="Camden County App" url="camden-arcgis-api" image="arcgis_api_screenshot.png" />
+          <Project name="Hillsborough Tour" url="hbht" image="hbht_screenshot_01.png" />
         </div>
       </header>
     </div>

@@ -9,6 +9,7 @@ import ProjectRAFT from "./components/ProjectRAFT";
 import ProjectLibrary from "./components/ProjectLibrary";
 import ProjectPortfolio from "./components/ProjectPortfolio";
 import ProjectCamden from "./components/ProjectCamden";
+import ProjectHBHT from "./components/ProjectHBHT";
 import Contact from "./components/Contact";
 
 const RouteSwitch = () => {
@@ -26,6 +27,7 @@ const RouteSwitch = () => {
           <Route path="library" element={<ProjectLibrary />} />
           <Route path="portfolio" element={<ProjectPortfolio />} />
           <Route path="camden-arcgis-api" element={<ProjectCamden />} />
+          <Route path="hbht" element={<ProjectHBHT />} />
         </Route>
         <Route path="/contact" element={<Contact />} />
       </Routes>
